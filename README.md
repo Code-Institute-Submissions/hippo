@@ -22,6 +22,7 @@ This website uses AngularJS to route viewers through the site. The site is style
 ### Features Left to Implement
 
 - Eye catching front page
+	- Sliding picture box
 - Information page.
     - Sidebar to navigate to different parts of the information
     - Pictures with "Did you know?" tips when you hover over them.
@@ -39,6 +40,8 @@ This website uses AngularJS to route viewers through the site. The site is style
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
     - We use **npm** to install **http-server** in order to view the site
+
+##Testing
 
 ## Contributing
  
