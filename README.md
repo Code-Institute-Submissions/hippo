@@ -41,7 +41,7 @@ This website uses AngularJS to route viewers through the site. The site is style
 - [npm](https://www.npmjs.com/)
     - We use **npm** to install **http-server** in order to view the site
 
-##Testing
+## Testing
 
 ## Contributing
  
