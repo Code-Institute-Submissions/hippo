@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Smallroundears - A website dedicated to learning about Hippos</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/hippo.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
 </head>
 <body>
-	<h1>Welcome to Smallroundears!</h1>
+	<!-- Creating Navigation Bar -->
+	<nav class="navbar navbar-fixed-top" id="hippoNav">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" id="hippoBrand" href="#">Smallroundears <img id="hippoLogo" src="images/hippologo.svg" alt="Hippo Logo" /></a>
+			
+				<!-- Creating a collapsable menu for mobile devices -->
+				<button type="button" class="navbar-toggle" id="hippoNavButton" data-toggle="collapse" data-target="#hippoNavList">
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+            </div>
+
+            <!-- Menu -->
+            <ul id="hippoNavList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Info</a></li>
+                 <li><a href="#">Media</a></li>
+                 <li><a href="#">Quiz</a></li>
+            </ul>
+		</div>
+	</nav>
 </body>
 </html>

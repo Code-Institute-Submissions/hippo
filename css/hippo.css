@@ -1,0 +1,37 @@
+#hippoNav {
+	background-color: white;
+	border: none;
+}
+
+#hippoNav > .container {
+	height: 60px;
+	background: linear-gradient(to bottom, #C5C4C8, #A9A9AE);
+	font-family: 'Happy Monkey', cursive;
+	border: 1px solid black;
+}
+
+#hippoBrand {
+	font-size: 35px;
+	color: #5C5757;
+	margin-top: -10px; 
+}
+
+#hippoLogo {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.navbar-nav > li > a {
+	margin-top: 4px;
+	font-size: 20px;
+	color: #5C5757;
+}
+
+#hippoNavButton {
+	background-color: #5C5757;
+}
+
+#hippoNavButton > span {
+	background-color: #B4B4B4;
+}
