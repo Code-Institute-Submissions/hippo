@@ -17,12 +17,11 @@ This website uses AngularJS to route viewers through the site. The site is style
 ## Features
  
 ### Existing Features
-- None yet
+- Eye catching front page
+  - Sliding picture box
  
 ### Features Left to Implement
 
-- Eye catching front page
-	- Sliding picture box
 - Information page.
     - Sidebar to navigate to different parts of the information
     - Pictures with "Did you know?" tips when you hover over them.
