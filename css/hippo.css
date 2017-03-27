@@ -1,10 +1,5 @@
 body {
-	padding-top: 60px;
-}
-
-h1 {
-	font-size: 20px;
-	color: black;
+	padding-top: 80px;
 }
 
 #hippoNav {
@@ -43,4 +38,24 @@ h1 {
 
 #hippoNavButton > span {
 	background-color: #B4B4B4;
+}
+
+#hippoCarousel {
+	border: 1px solid #5C5757;
+}
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel-content {
+	position: absolute;
+	bottom: 20%;
+	left: 0;
+	z-index: 20;
+	color: #5C5757;
+	width: 100%;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 20px;
+	text-align: center;
 }
