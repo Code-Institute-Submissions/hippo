@@ -6,5 +6,9 @@ angular.module('HippoSite').config(function($locationProvider, $routeProvider) {
 	$routeProvider.when('/', {
 		templateUrl: 'templates/home.html',
 		controller: 'HomeController'
+	})
+	.when('/info', {
+		templateUrl: 'templates/info.html',
+		controller: 'InfoController'
 	});
 });
