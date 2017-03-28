@@ -3,7 +3,6 @@ body {
 }
 
 .hippoNav {
-	background-color: white;
 	border: none;
 }
 
@@ -83,6 +82,12 @@ footer > .container > p {
 aside > .btn {
 	display: block;
 	text-align: left;
+	font-size: 20px;
+	color: #5C5757;
+}
+
+.hippolinks {
+	text-align: center;
 	font-size: 20px;
 	color: #5C5757;
 }
