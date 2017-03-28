@@ -6,7 +6,13 @@ angular.module('RouteControllers', [])
 
 	})
 	.controller('MediaController', function($scope) {
-
+		// Script for enlarging pictures when they are clicked on
+		$(function() {
+				$('.thumbnail').on('click', function() {
+					$('.hippopreview').attr('src', $(this).find('img').attr('src'));
+					$('#hippomodal').modal('show');   
+				});		
+		});
 	})
 	.controller('QuizController', function($scope) {
 

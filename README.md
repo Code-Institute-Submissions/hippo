@@ -21,6 +21,7 @@ This website uses AngularJS to route viewers through the site. The site is style
   - Sliding picture box
 - Information page.
   - Sidebar to navigate to different parts of the information
+- Links page to other sites with information about Hippopotami
 
 ### Features Left to Implement
 
@@ -30,7 +31,6 @@ This website uses AngularJS to route viewers through the site. The site is style
 - Quiz page for viewers to test their knowledge
     - Form for viewers to input their answers or check the correct box
     - Submit button so viewers can see how they scored on the quiz
-- Links page to other sites with information about Hippopotami
 
 ## Tech Used
 ### Some the tech used includes:

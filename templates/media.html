@@ -1,3 +1,86 @@
 <section class="container">
-	<h1>Media Page</h1>
+
+	<!-- Sidebar -->
+	<aside class="col-sm-3">
+		<a class="btn" role="button" data-toggle="collapse" href="#collapsePictures"><span class="glyphicon glyphicon-circle-arrow-right"></span>  Pictures</a>
+		<a class="btn" role="button" data-toggle="collapse" href="#collapseVideo"><span class="glyphicon glyphicon-circle-arrow-right"></span>  Video</a>
+	</aside>
+
+	<!-- Picture Gallery -->
+	<article class="col-sm-9">
+		<div id="collapsePictures" class="collapse">
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo4.jpg" alt="Baby Hippo in water">
+					<figcaption>Cute baby Hippo</figcaption>
+				</a>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo5.jpg" alt="Hippo eating">
+					<figcaption>Hippo being fed</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo6.jpg" alt="2 Hippos lying down">
+					<figcaption>Hippos lounging in sun</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo7.jpg" alt="Hippo submerged in water">
+					<figcaption>Hippo swimming</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo8.jpg" alt="Hippo eating grass">
+					<figcaption>Hippo grazing on grass</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo9.jpg" alt="Hippo leaning against a wall">
+					<figcaption>Bored Hippo</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo1.jpg" alt="Hippo in captivity">
+					<figcaption>Hippo at the Zoo</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo2.jpg" alt="Hippo sleeping">
+					<figcaption>Very comfortable Hippo</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<figure class="thumbnail">
+					<img src="images/hippo3.jpg" alt="Hippos fighting">
+					<figcaption>Hippos can be moody</figcaption>
+				</figure>
+			</div>
+		</div>
+
+        <!-- Modal to enlarge pictures onclick, hidden by default-->
+		<div class="modal fade" id="hippomodal" aria-hidden="true">
+			<div class="modal-content">              
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+					<img src="" class="hippopreview">
+				</div>
+			</div>
+		</div>
+
+	</article>
+
+	<!-- Video -->
+	<article class="col-sm-9">
+		<div id="collapseVideo" class="collapse">
+			<h1>Placeholder for video</h1>
+		</div>
+	</article>
 </section>

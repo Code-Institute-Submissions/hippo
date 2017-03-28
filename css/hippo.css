@@ -91,3 +91,27 @@ aside > .btn {
 	font-size: 20px;
 	color: #5C5757;
 }
+
+.thumbnail > img {
+	height: 175px;
+}
+
+.hippopreview {
+	width: 100%;
+}
+
+.modal {
+	overflow: auto;
+}
+
+.modal-content {
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+}
+
+.thumbnail > figcaption {
+	color: #5C5757;
+	font-style: italic;
+	text-align: center;
+}
