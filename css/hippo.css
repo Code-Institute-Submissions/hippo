@@ -79,3 +79,10 @@ footer > .container > p {
 	float: right;
 	padding-right: 10px;
 }
+
+aside > .btn {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	color: #5C5757;
+}
