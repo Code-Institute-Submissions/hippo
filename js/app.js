@@ -10,5 +10,17 @@ angular.module('HippoSite').config(function($locationProvider, $routeProvider) {
 	.when('/info', {
 		templateUrl: 'templates/info.html',
 		controller: 'InfoController'
+	})
+	.when('/media', {
+		templateUrl: 'templates/media.html',
+		controller: 'MediaController'
+	})
+	.when('/quiz', {
+		templateUrl: 'templates/quiz.html',
+		controller: 'QuizController'
+	})
+	.when('/links', {
+		templateUrl: 'templates/links.html',
+		controller: 'LinksController'
 	});
 });

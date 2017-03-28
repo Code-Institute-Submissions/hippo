@@ -4,4 +4,13 @@ angular.module('RouteControllers', [])
 	})
 	.controller('InfoController', function($scope) {
 
+	})
+	.controller('MediaController', function($scope) {
+
+	})
+	.controller('QuizController', function($scope) {
+
+	})
+	.controller('LinksController', function($scope) {
+
 	});
