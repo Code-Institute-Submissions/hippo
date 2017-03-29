@@ -79,10 +79,16 @@ footer > .container > p {
 	padding-right: 10px;
 }
 
-aside > .btn {
+aside > .nav-pills > li > a, aside > .nav-pills > li.active > a, aside > .nav-pills > li.active > a:focus {
 	display: block;
 	text-align: left;
 	font-size: 20px;
+	color: #5C5757;
+	background-color: white;
+}
+
+aside > .nav-pills > li.active > a:hover {
+	background-color: #eee;
 	color: #5C5757;
 }
 
