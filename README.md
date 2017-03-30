@@ -60,6 +60,6 @@ This website uses AngularJS to route viewers through the site. The site is style
 1. The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
 
 ### Information
-1. The information used to create this site was from a number of sources
-  1. Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pymgy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-  2. The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
+- The information used to create this site was from a number of sources
+    - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
+    - The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
