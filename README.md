@@ -53,3 +53,13 @@ This website uses AngularJS to route viewers through the site. The site is style
 5. Once **http-server** is installed run ```http-server -c-1```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
+
+## Credits
+
+### Pictures
+1. The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
+
+### Information
+1. The information used to create this site was from a number of sources
+  1. Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pymgy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
+  2. The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
