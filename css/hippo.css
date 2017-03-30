@@ -164,3 +164,8 @@ h4 {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+video {
+	width: 100%;
+	border: 1px solid #5C5757;
+}

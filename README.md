@@ -56,8 +56,9 @@ This website uses AngularJS to route viewers through the site. The site is style
 
 ## Credits
 
-### Pictures
-1. The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
+### Media
+- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
+- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
 
 ### Information
 - The information used to create this site was from a number of sources
