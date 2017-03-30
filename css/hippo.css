@@ -13,6 +13,11 @@ body {
 	border: 1px solid black;
 }
 
+p , h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
 #hippoBrand {
 	font-size: 35px;
 	color: #5C5757;
@@ -76,12 +81,15 @@ footer > .container > a {
 footer > .container > p {
 	display: inline-block;
 	float: right;
+	font-family: 'Happy Monkey', cursive;
+	color: #5C5757;
 	padding-right: 10px;
 }
 
 aside > .nav-pills > li > a, aside > .nav-pills > li.active > a, aside > .nav-pills > li.active > a:focus {
 	display: block;
 	text-align: left;
+	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	color: #5C5757;
 	background-color: white;
@@ -120,4 +128,39 @@ aside > .nav-pills > li.active > a:hover {
 	color: #5C5757;
 	font-style: italic;
 	text-align: center;
+}
+
+.infoPics {
+	border: 1px solid #5C5757;
+	width: 35%;
+}
+
+#generalPic {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#habitatPic {
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+#humanPic {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.typesPics {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#behaviourPic {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+h4 {
+	font-weight: bold;
+	text-decoration: underline;
 }
