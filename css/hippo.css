@@ -194,6 +194,24 @@ video {
 	border: 1px solid #5C5757;
 }
 
+/* Quiz Page CSS */
+#quizForm {
+	text-align: center;
+}
+
+#quizForm > label, #quizForm > select, #quizForm > input {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+#quizForm > h4 {
+	padding-top: 20px;
+}
+
+#quizForm > label {
+	padding-right: 10px;
+}
+
 /* Links Page CSS */
 .hippolinks {
 	text-align: center;
