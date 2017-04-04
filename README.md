@@ -40,6 +40,8 @@ This website uses AngularJS to route viewers through the site. The site is style
     - We use **npm** to install **http-server** in order to view the site
 
 ## Testing
+- Prototype code was written and tested using jasmine
+- All code used on the site has been tested to ensure everything is working as expected
 
 ## Contributing
  
