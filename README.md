@@ -23,14 +23,12 @@ This website uses AngularJS to route viewers through the site. The site is style
   - Sidebar to navigate to different parts of the information
 - Media page with plenty of pictures and a video
 - Links page to other sites with information about Hippopotami
-
-### Features Left to Implement
-
-- Information page.
-    - Pictures with "Did you know?" tips when you hover over them.
 - Quiz page for viewers to test their knowledge
     - Form for viewers to input their answers or check the correct box
     - Submit button so viewers can see how they scored on the quiz
+
+### Features Left to Implement
+- None
 
 ## Tech Used
 ### Some the tech used includes:
