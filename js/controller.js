@@ -20,11 +20,13 @@ angular.module('RouteControllers', [])
 		$scope.submitQuiz = function() {
 
 			// Test Question 1 Answer
-			$scope.user.answer1 = parseFloat($scope.user.answer1);
-			if (typeof($scope.user.answer1) !== "number") {
+			// Assign new variable so answer remains for user to see what they put
+			var answer1 = $scope.user.answer1
+			answer1 = parseFloat(answer1);
+			if (typeof(answer1) !== "number") {
     			alert("Argument must be a number");
     		}
-    		else if ($scope.user.answer1 === 19) {
+    		else if (answer1 === 19) {
         		var q1 = 1;
 				document.getElementById("o1").style.display = "inline-block";
     		} else {
