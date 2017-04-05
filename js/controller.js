@@ -90,9 +90,10 @@ angular.module('RouteControllers', [])
 			console.log(q5);
 			console.log(score); */
 
-			// Add up score and print for user
+			// Add up score
 			score = (q1 + q2 + q3 + q4 + q5);
 
+			// Change modal depending on how well user did
 			if (score == 5) {
 				document.getElementById("score").style.color = "green";
 				$("#quizModalImage").attr('src','images/hippohappy.jpg');
@@ -110,6 +111,7 @@ angular.module('RouteControllers', [])
 				document.getElementById("modalScore").innerHTML = "Score = " + score + "/5";
 			}
 
+			// Add score to main page
 			document.getElementById("score").innerHTML = score + "/5";
 
     		// Hide submit button, show reset button
