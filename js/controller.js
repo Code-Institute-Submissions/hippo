@@ -10,6 +10,7 @@ angular.module('RouteControllers', [])
 		$(function() {
 				$('.thumbnail').on('click', function() {
 					$('.hippopreview').attr('src', $(this).find('img').attr('src'));
+					document.getElementById("modalCaption").innerHTML = $(this).find('figcaption').text();
 					$('#hippomodal').modal('show');   
 				});		
 		});
@@ -94,8 +95,19 @@ angular.module('RouteControllers', [])
 
 			if (score == 5) {
 				document.getElementById("score").style.color = "green";
+				$("#quizModalImage").attr('src','images/hippohappy.jpg');
+				document.getElementById("quizModalFooter").innerHTML = "Well done! You aced the quiz!";
+				document.getElementById("modalScore").innerHTML = "Score = " + score + "/5";
+			} else if (score == 4 || score == 3) {
+				document.getElementById("score").style.color = "red";
+				$("#quizModalImage").attr('src','images/hippo7.jpg');
+				document.getElementById("quizModalFooter").innerHTML = "Nice! You got most questions correct.";
+				document.getElementById("modalScore").innerHTML = "Score = " + score + "/5";
 			} else {
 				document.getElementById("score").style.color = "red";
+				$("#quizModalImage").attr('src','images/hippoangry.jpg');
+				document.getElementById("quizModalFooter").innerHTML = "Hard luck! Why not give it another go?";
+				document.getElementById("modalScore").innerHTML = "Score = " + score + "/5";
 			}
 
 			document.getElementById("score").innerHTML = score + "/5";
@@ -103,6 +115,9 @@ angular.module('RouteControllers', [])
     		// Hide submit button, show reset button
     		document.getElementById("submitButton").style.display = "none";
     		document.getElementById("resetButton").style.display = "block";
+
+    		// Show modal with score and picture
+			$('#quizModal').modal('show');
 
 		}
 

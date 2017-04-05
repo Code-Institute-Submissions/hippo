@@ -169,20 +169,6 @@ h4 {
 	height: 175px;
 }
 
-.hippopreview {
-	width: 100%;
-}
-
-.modal {
-	overflow: auto;
-}
-
-.modal-content {
-	width: 80%;
-	max-width: 800px;
-	margin: auto;
-}
-
 .thumbnail > figcaption {
 	color: #5C5757;
 	font-style: italic;
@@ -264,6 +250,56 @@ video {
 #resetButton {
 	margin: auto;
 	display: none;
+}
+
+/* Modal Styling */
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #DADADA;
+	opacity: 0.8;
+}
+
+.close:hover {
+	color: white;
+	opacity: 1;
+}
+
+.modal {
+	overflow: auto;
+}
+
+.modal-content {
+	width: 80%;
+	max-width: 800px;
+	margin: 30px auto 0 auto;
+	border-radius: 0;
+}
+
+.modal-header {
+	background-color: #5C5757;
+	color: white;
+}
+
+.modal-header > p {
+	margin-bottom: 0;
+}
+
+.modal-body > img {
+	width: 100%;
+}
+
+.modal-footer > p {
+	display: inline-block;
+}
+
+#quizModalFooter {
+	float: left;
+}
+
+#modalScore {
+	float: right;
 }
 
 /* Move and resize Hippo image on smaller screens */
