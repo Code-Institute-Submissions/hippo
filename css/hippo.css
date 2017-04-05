@@ -212,11 +212,29 @@ video {
 	padding-right: 10px;
 }
 
+#quizContainer {
+	display: flex;
+}
+
+#quizArticle {
+	flex: 2;
+}
+
+#quizCartoon {
+	flex: 1;
+	margin: auto;
+}
+
 #quizForm > .btn {
 	color: #5C5757;
 	background-color: #A9A9AE;
 	border: 2px solid #5C5757;
 	font-weight: bold;
+}
+
+#quizHippo {
+	display: block;
+	width: 80%;
 }
 
 #score {
@@ -246,6 +264,19 @@ video {
 #resetButton {
 	margin: auto;
 	display: none;
+}
+
+/* Move and resize Hippo image on smaller screens */
+@media (max-width: 767px) {
+
+	#quizContainer {
+		display: block;
+	}
+
+	#quizHippo {
+		margin: 20px auto 0 auto;
+		width: 50%;
+	}
 }
 
 /* Links Page CSS */

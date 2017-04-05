@@ -25,8 +25,10 @@ angular.module('RouteControllers', [])
     		}
     		else if ($scope.user.answer1 === 19) {
         		var q1 = 1;
+				document.getElementById("o1").style.display = "inline-block";
     		} else {
         		var q1 = 0;
+				document.getElementById("x1").style.display = "inline-block";
     		}
 
     		// Test Question 2 Answer
@@ -36,8 +38,10 @@ angular.module('RouteControllers', [])
         		$scope.user.answer2 = $scope.user.answer2.toLowerCase();
         		if ($scope.user.answer2 === "donna" || $scope.user.answer2 === "donna the hippo") {
             	var q2 = 1;
+				document.getElementById("o2").style.display = "inline-block";
         		} else {
             	var q2 = 0;
+				document.getElementById("x2").style.display = "inline-block";
             	}
         	}
 
@@ -46,8 +50,10 @@ angular.module('RouteControllers', [])
 		    	alert("Argument must be a string");
 			} else if ($scope.user.answer3 === "water") {
 			    var q3 = 1;
+				document.getElementById("o3").style.display = "inline-block";
 			} else {
 			    var q3 = 0;
+				document.getElementById("x3").style.display = "inline-block";
 			}
 
 			// Test Question 4 Answer
@@ -57,8 +63,10 @@ angular.module('RouteControllers', [])
 			    $scope.user.answer4 = $scope.user.answer4.toLowerCase();
 			    if ($scope.user.answer4 === "pygmy") {
 			        var q4 = 1;
+				document.getElementById("o4").style.display = "inline-block";
 			    } else {
 			        var q4 = 0;
+				document.getElementById("x4").style.display = "inline-block";
 			    }
 			}
 
@@ -67,8 +75,10 @@ angular.module('RouteControllers', [])
 			    alert("Argument must be a string");
 			} else if ($scope.user.answer5 === "london") {
 			    var q5 = 1;
+				document.getElementById("o5").style.display = "inline-block";
 			} else {
 			    var q5 = 0;
+				document.getElementById("x5").style.display = "inline-block";
 			}
 
 			/*   Used for testing outputs
@@ -89,37 +99,6 @@ angular.module('RouteControllers', [])
 			}
 
 			document.getElementById("score").innerHTML = score + "/5";
-
-			// Adding glyphicons to show whether answers were correct
-			if (q1 == 1) {
-				document.getElementById("o1").style.display = "inline-block";
-			} else {
-				document.getElementById("x1").style.display = "inline-block";
-			}
-
-			if (q2 == 1) {
-				document.getElementById("o2").style.display = "inline-block";
-			} else {
-				document.getElementById("x2").style.display = "inline-block";
-			}
-
-			if (q3 == 1) {
-				document.getElementById("o3").style.display = "inline-block";
-			} else {
-				document.getElementById("x3").style.display = "inline-block";
-			}
-
-			if (q4 == 1) {
-				document.getElementById("o4").style.display = "inline-block";
-			} else {
-				document.getElementById("x4").style.display = "inline-block";
-			}
-
-			if (q5 == 1) {
-				document.getElementById("o5").style.display = "inline-block";
-			} else {
-				document.getElementById("x5").style.display = "inline-block";
-			}
 
     		// Hide submit button, show reset button
     		document.getElementById("submitButton").style.display = "none";
