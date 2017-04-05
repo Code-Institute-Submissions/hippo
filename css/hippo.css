@@ -270,6 +270,10 @@ video {
 	overflow: auto;
 }
 
+.modal-backdrop.in {
+	opacity: 0.8;
+}
+
 .modal-body > img {
 	width: 100%;
 }
