@@ -8,11 +8,11 @@ This is a website for people to learn about Hippopotami and/or then test them on
  
 ### What does it do?
  
-This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies.
+This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
  
 ### How does it work
  
-This website uses AngularJS to route viewers through the site. The site is styled with Bootstrap.
+This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code.
 
 ## Features
  
@@ -31,11 +31,16 @@ This website uses AngularJS to route viewers through the site. The site is style
 - None
 
 ## Tech Used
+
 ### Some the tech used includes:
+- **HTML**, **CSS** and **Javascript**
+  - Base languages used to create website
 - [AngularJS](https://angularjs.org/)
     - We use **AngularJS** to handle page routing and to build custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
+- [JQuery](https://jquery.com)
+    - Use JQuery for boostrap and displaying modal
 - [npm](https://www.npmjs.com/)
     - We use **npm** to install **http-server** in order to view the site
 
