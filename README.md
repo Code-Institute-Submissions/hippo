@@ -12,7 +12,7 @@ This website has various pages for people to read lots of information about Hipp
  
 ### How does it work
  
-This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code.
+This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
 
 ## Features
  
@@ -40,9 +40,11 @@ This website uses **AngularJS** to route viewers through the site and control wh
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [JQuery](https://jquery.com)
-    - Use JQuery for boostrap and displaying modal
+    - Use **JQuery** for boostrap and displaying modal
 - [npm](https://www.npmjs.com/)
     - We use **npm** to install **http-server** in order to view the site
+- [Bower](https://bower.io)
+    - Using **Bower** to manage package dependencies
 
 ## Testing
 - Prototype code was written and tested using jasmine
