@@ -114,6 +114,12 @@ p , h4 {
 	border: 1px solid #5C5757;
 }
 
+@media (max-width: 767px) {
+	.carousel-content > p {
+		font-size: 12px;
+	}
+}
+
 /* Info Page CSS */
 aside > .nav-pills > li > a, aside > .nav-pills > li.active > a, aside > .nav-pills > li.active > a:focus {
 	display: block;
